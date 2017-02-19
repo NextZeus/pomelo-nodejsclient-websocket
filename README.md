@@ -3,13 +3,10 @@
 ## useage
 
 ```
-var Pomelo = require('pomelo-nodejsclient-websocket');
-
-var pomelo = new Pomelo();
-
-
 
 var async = require('async');
+var Pomelo = require('pomelo-nodejsclient-websocket');
+var pomelo = new Pomelo();
 
 async.waterfall([
   function (cb) {
